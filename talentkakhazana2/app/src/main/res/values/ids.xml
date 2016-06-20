@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="mainscroll">false</item>
+    <item type="id" name="adnew">false</item>
+    <item type="id" name="header">false</item>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="intro">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="textView2">false</item>
+    <item type="id" name="category">false</item>
+    <item type="id" name="textView3">false</item>
+    <item type="id" name="textView4">false</item>
+    <item type="id" name="textView5">false</item>
+    <item type="id" name="textView6">false</item>
+    <item type="id" name="textView7">false</item>
+    <item type="id" name="TextView02">false</item>
+    <item type="id" name="TextView03">false</item>
+    <item type="id" name="TextView01">false</item>
+    <item type="id" name="TextView04">false</item>
+    <item type="id" name="TextView05">false</item>
+    <item type="id" name="TextView06">false</item>
+    <item type="id" name="TextView07">false</item>
+    <item type="id" name="footer">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="adv">false</item>
+    <item type="id" name="webView1">false</item>
+    <item type="id" name="TheSplashLayout">false</item>
+    <item type="id" name="SplashImageView">false</item>
+</resources>

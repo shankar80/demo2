@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/mainscroll" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/adnew" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/header" android:background="#0db5ed" android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:weightSum="1">
+
+            <LinearLayout android:orientation="vertical" android:background="#ffff6600" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+            <LinearLayout android:orientation="vertical" android:background="#ffffcc33" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/intro" android:background="@color/material_deep_teal_500" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="30sp" android:textColor="#000000" android:layout_gravity="center_horizontal" android:id="@id/textView1" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="WEL-COME  TK2 ONLINE "
+                android:textStyle="bold|italic" />
+
+            <LinearLayout android:orientation="vertical" android:background="#ffff6600" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+            <LinearLayout android:orientation="vertical" android:background="#ffffcc33" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/category" android:background="#f70ae0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center_horizontal" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CATEGORIES"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:layout_gravity="center" android:id="@id/textView4" android:background="@drawable/rounded" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="Study Material" android:drawableLeft="@drawable/gl" android:drawablePadding="5.0dip"
+                android:textSize="22sp"
+                android:textColor="#ffffff" />
+            <TextView
+                android:id="@id/textView5" android:background="@drawable/rounded" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="Photography Material" android:drawableLeft="@drawable/gl" android:drawablePadding="5.0dip"
+                android:textSize="22sp"
+                android:textColor="#ffffff" />
+            <TextView
+                android:id="@id/textView6" android:background="@drawable/rounded" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="Recipes" android:drawableLeft="@drawable/gl" android:drawablePadding="5.0dip"
+                android:textSize="22sp"
+                android:textColor="#ffffff" />
+            <TextView
+                android:id="@id/textView7" android:background="@drawable/rounded" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="Result News" android:drawableLeft="@drawable/gl" android:drawablePadding="5.0dip"
+                android:textSize="22sp"
+                android:textColor="#ffffff" />
+            <TextView
+                android:id="@id/TextView02" android:background="@drawable/rounded" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip"
+                android:drawableLeft="@drawable/gl" android:drawablePadding="5.0dip"
+                android:textSize="22sp"
+                android:text="Job Alert"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@id/TextView04" android:background="@drawable/rounded" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="More Apps" android:drawableLeft="@drawable/gl" android:drawablePadding="5.0dip" android:onClick="goapps"
+                android:textSize="22sp"
+                android:textColor="#ffffff" />
+            <TextView
+                android:id="@id/TextView05" android:background="@drawable/rounded" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="Connect Facebook" android:drawableLeft="@drawable/gl" android:drawablePadding="5.0dip" android:onClick="gofb"
+                android:textSize="22sp"
+                android:textColor="#ffffff" />
+            <TextView
+                android:id="@id/TextView06" android:background="@drawable/rounded" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="Share with Friend" android:drawableLeft="@drawable/gl" android:drawablePadding="5.0dip" android:onClick="sharenow"
+                android:textSize="22sp"
+                android:textColor="#ffffff" />
+            <TextView
+                android:id="@id/TextView07" android:background="@drawable/rounded" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="About Us" android:drawableLeft="@drawable/gl" android:drawablePadding="5.0dip" android:onClick="sendmail"
+                android:textSize="22sp"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/footer" android:background="@android:color/holo_blue_bright" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="#ffff6600" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+            <LinearLayout android:orientation="vertical" android:background="#ffffcc33" android:layout_width="match_parent" android:layout_height="1.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="17sp" android:textColor="#080707" android:layout_gravity="center_horizontal" android:id="@id/TextView05" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Designed by Shankar yadav mo-8058784789" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#fb4141" android:gravity="center_horizontal" android:id="@id/TextView04" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="आप को एप कैसा लगा अपनी राय जरुर दे "
+                android:textSize="22sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
